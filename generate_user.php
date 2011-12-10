@@ -9,7 +9,7 @@
  * Creative Commons Attribution 3.0 Unported License
  * http://creativecommons.org/licenses/by/3.0/
  *
- * But I wouldn't say no to a beer if we ever meet! *
+ * 
  *
  */
 
@@ -22,13 +22,13 @@
  * This code was written using version 3.1.1 and uses the Graph API
  *
  */
-require_once('API/Facebook.php');
+require_once('Facebook.php');
 
 /**
  * Put your APP ID and Secret here:
  */
-$app_id = '106068422362';
-$secret = '0f595123b72fb49305ea8790b2b90d45';
+$app_id = 'YOUR APP ID';
+$secret = 'YOUR APP SECRET';
 
 
 /**
