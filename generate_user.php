@@ -27,8 +27,8 @@ require_once('Facebook.php');
 /**
  * Put your APP ID and Secret here:
  */
-$app_id = '106068422362';
-$secret = '1e3d226b2467db77c755eea4ee23057d';
+$app_id = 'INSERT APP ID HERE';
+$secret = 'INSERT APP SECRET HERE';
 
 
 /**
@@ -227,14 +227,14 @@ if (isset($_GET['op'])) {
             <option value="read_insights">read_insights</option>
             <option value="read_mailbox">read_mailbox</option>
             <option value="read_requests">read_requests</option>
-            <option value="read_stream">read_insights</option>
-            <option value="xmpp_login">read_insights</option>
-            <option value="ads_management">read_insights</option>
-            <option value="manage_friendlists">read_insights</option>
-            <option value="manage_notifications">read_insights</option>
-            <option value="offline_access">read_insights</option>
-            <option value="publish_checkins">read_insights</option>
-            <option value="publish_stream">read_insights</option>
+            <option value="read_stream">read_stream</option>
+            <option value="xmpp_login">xmpp_login</option>
+            <option value="ads_management">ads_management</option>
+            <option value="manage_friendlists">manage_friendlists</option>
+            <option value="manage_notifications">manage_notifications</option>
+            <option value="offline_access">offline_access</option>
+            <option value="publish_checkins">publish_checkins</option>
+            <option value="publish_stream">publish_stream</option>
             <option value="create_event">create_event</option>
             <option value="rsvp_event">rsvp_event</option>
             <option value="sms">sms</option>
