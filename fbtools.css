@@ -1,0 +1,63 @@
+/* 
+    Document   : fbtools
+    Created on : 10/12/2011, 10:02:28 PM
+    Author     : John
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+  background-color: #3B5998;
+  color: #333333;
+  font-size: 11px;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  line-height: 1.28;
+  text-align: left;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+h2 {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.6;
+}
+
+b {
+  font-weight: bold;
+}
+
+#page {
+  background-color: #FFFFFF;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  padding: 30px 10px;
+  height: 100%;
+  min-height: 100%;
+}
+
+clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.choice {
+  padding: 3px 0;
+  vertical-align: top;
+}
+
