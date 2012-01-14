@@ -1,6 +1,6 @@
 <?php
 /**
- * Facebook Test Account Generator
+ * Facebook Test User Manager
  *
  * Based on the work by jide
  * http://www.jide.fr/english/easily-manage-test-accounts-for-facebook-app-developers
@@ -63,7 +63,8 @@ if (isset($_GET['op'])) {
 
   // What to do?
   switch ($_GET['op']) {
-  
+
+    // Show the details of a test user
     case 'Details':
       
       if (isset($_GET['id'])) {
@@ -189,13 +190,12 @@ if (isset($_GET['op'])) {
 ?>
 <html>
   <head>
-    <title>Facebook User Manager</title>
+    <title>Facebook Test User Manager</title>
   </head>
-  <link href="reset.css" rel="stylesheet" type="text/css">
   <link href="fbtools.css" rel="stylesheet" type="text/css">
   <body>
     <div id="page"> 
-      <h1>Facebook User Manager</h1>
+      <h1>Facebook Test User Manager</h1>
       Allows the creation, management & deletion of test Facebook users.
       
 <?php
@@ -260,7 +260,7 @@ if (isset($_GET['op'])) {
 <?php
 
     // List users
-		if (!empty($users)) {
+    if (!empty($users)) {
       foreach($users['data'] as $user) {
         echo "<li> 
                 User: {$user['id']} 
