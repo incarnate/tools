@@ -1,0 +1,43 @@
+
+Facebook Test Account Generator
+------------------------------------
+from http://www.incaranted.net
+
+A simple tool to help you manage your Facebook users.
+
+If you don't want to have to keep logging into the Facebook dev areas
+to manage your users or you would like some example code on how to 
+create and view test users, then hopefully this will come in handy.
+
+If you want more info on Facebook test users, check out
+the doco here: https://developers.facebook.com/docs/test_users/
+
+
+USAGE
+------------------------------------
+
+1. Download the code and upload it to somewhere on your server
+    * Somewhere obscure or password protected so people don't mess with it!
+	
+2. If you haven't already, download the Facebook PHP SDK and put it in 
+   the same directory - https://github.com/facebook/php-sdk
+   If you have it already, you can alter the require_once at the start of the 
+   php file to point to it.
+   
+3. Add your App ID & Secret to the relevent lines in the php file.
+
+3. Profit!
+
+Any questions or comments hit up http://incarnated.net/content/facebook-test-user-manager
+
+
+CREDITS & LICENSE
+------------------------------------
+
+Based on the work by jide
+http://www.jide.fr/english/easily-manage-test-accounts-for-facebook-app-developers
+
+The Facebook Test Account Generator by incarnated.net is licensed under a
+Creative Commons Attribution 3.0 Unported License
+http://creativecommons.org/licenses/by/3.0/
+
