@@ -13,7 +13,7 @@
  * the doco here: https://developers.facebook.com/docs/test_users/
  *
  */
-/*
+/**
  * Below are the bits you will have to change.
  *
  * You'll need the Facebook PHP SDK
