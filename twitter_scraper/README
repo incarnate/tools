@@ -1,0 +1,10 @@
+Twitter Scraper
+------------------------------------
+from http://www.incaranted.net
+
+A simple demo of pulling tweets from Twitter based on a search term.
+
+Can display the results in XML, HTML, JSON or on a map if there is
+geo coordinates in the tweets.
+
+
