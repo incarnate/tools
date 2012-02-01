@@ -1,0 +1,7 @@
+name = FMath Wysiwyg API bridge
+description = Makes FMath available as plugin for client-side editors integrated via Wysiwyg API.
+package = User interface
+core = 7.x
+dependencies[] = wysiwyg
+
+
